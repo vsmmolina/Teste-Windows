@@ -1,0 +1,83 @@
+VENDA COM OPCAO SIMPLIFICADA
+#############################
+
+CASOS DE USO DE DECONTO
+=======================
+1) Venda em dinheiro
+	1.a)Desconto automatico no item 		- ok
+	1.b)Desconto maximo no item 			- ok
+	1.c)Desconto maximo no grupo 			- ok
+	1.d)Desconto no laboratorio 			- ok
+	1.e)Venda de produto em promocao 		- ok
+	1.f)Informando o cliente 			- Quando jogo o produto primeiro e depois o cliente o desconto nao aplica no produto porem se fizer o contrario puxa o desconto.
+
+2)Venda e cheque
+	2.a)Desconto automatico no item			- ok
+	2.b)Desconto maximo no item			- ok 
+	2.c)Desconto maximo no grupo			- ok
+	2.d)Desconto no laboratorio			- ok	
+	2.e)Venda de produto em promocao		- ok
+	2.f)Informando o cliente			- Quando jogo o produto primeiro e depois o cliente o desconto nao aplica no produto porem se fizer o contrario puxa o desconto.
+
+3) Venda em cartao
+	3.a)Desconto automatico no item			- ok
+	3.b)Desconto maximo no item 			- ok
+	3.c)Desconto maximo no grupo			- ok
+	3.d)Desconto no laboratorio			- ok
+	3.e)Venda de produto em promocao		- ok
+	3.f)Informando o cliente			- Quando jogo o produto primeiro e depois o cliente o desconto nao aplica no produto porem se fizer o contrario puxa o desconto.
+	3.g)Desconto automatico no cartao		- Desconto aplicado quando escolhemos primeiro a forma de pagamento, caso escolho depois ele nao aplica o desconto, e quando aplica e troco a forma de pagamento ele nao refaz o calculo do desc.	
+	3.h)Desconto maximo no cartao			- ok
+	3.i)Vender separado Cartao Debito/Credito	- Quando um cartao esta habilitado com o desconto maximo, ele esta desconsiderando os descontos individuais dos cartoes e pegando essa desconto maximo!
+
+4)Venda convenio
+	4.a)Desconto automatico no item			- Nao esta puxando o desconto automatico no item
+	4.b)Desconto maximo no item 			- ok
+	4.c)Desconto maximo no grupo			- ok
+	4.d)Desconto no laboratorio			- ok	
+	4.e)Venda de produto em promocao		- ok
+	4.f)Desconto automatico no cliente		- O Desconto so é aplicado se escolhermos primeiro o cliente na opcao Escolher forma de pagamento
+	4.g)Desconto automatico no convenio		- O Desconto so é aplicado se escolhermos primeiro o cliente na opcao Escolher forma de pagamento
+
+
+VENDA COM OPCAO DETALHADA
+#########################
+
+CASOS DE USO DE DECONTO
+=======================
+
+1) Venda em dinheiro
+	1.a)Desconto automatico no item			- ok
+	1.b)Desconto maximo no item 			- ok
+	1.c)Desconto maximo no grupo			- ok
+	1.d)Desconto no laboratorio			- ok
+	1.e)Venda de produto em promocao		- ok	
+	1.f)Informando o cliente			- 
+
+2)Venda e cheque
+	2.a)Desconto automatico no item
+	2.b)Desconto maximo no item 
+	2.c)Desconto maximo no grupo
+	2.d)Desconto no laboratorio
+	2.e)Venda de produto em promocao
+	2.f)Informando o cliente
+
+3) Venda em cartao
+	3.a)Desconto automatico no item
+	3.b)Desconto maximo no item 
+	3.c)Desconto maximo no grupo
+	3.d)Desconto no laboratorio
+	3.e)Venda de produto em promocao
+	3.f)Informando o cliente
+	3.g)Desconto automatico no cartao
+	3.h)Desconto maximo no cartao
+	3.i)Vender separado Cartao Debito/Credito
+
+4)Venda convenio
+	4.a)Desconto automatico no item
+	4.b)Desconto maximo no item 
+	4.c)Desconto maximo no grupo
+	4.d)Desconto no laboratorio
+	4.e)Venda de produto em promocao
+	4.f)Desconto automatico no cliente
+	4.g)Desconto automatico no convenio	
